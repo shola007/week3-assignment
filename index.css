@@ -1,0 +1,86 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 500px 100px;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.one{
+    grid-column: 1/4;
+    background: #ECECEC;
+}
+.two{
+    grid-column:4/6;
+    background-color: #ECECEC;
+}
+.three{
+    grid-column:1/6;
+    border: 1px solid blue;
+    background: #170A1B;
+}
+.two img{
+    width:85%; 
+    height: 85%;
+    margin-top:20px;
+    margin-left: 10px;
+ } 
+ .myinput1{
+margin-left: 8px;
+ }
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+.secondlist li{
+margin-left: 65px;
+}
+.secondlist{
+    height:40px;
+    background: #680C4C;
+}
+.secondlist a{
+    font-size: 17px;
+    color: white;
+}
+.thirdlist{
+    margin-top:10px;
+}
+.thirdlist li{
+    padding-left: 70px;
+}
+.thirdlist button{
+    padding:20px 30px 20px 30px;
+    border-radius: 10px;
+}
+li {
+display:inline;
+margin-left: 10px;
+}
+li a{
+    text-decoration: none;
+    color:black;
+}
+.logo{
+    font-size: 45px;
+    color: #EB6269;
+}
+.myimage{
+    width: 5%;
+    margin-left:2px;
+}
+.free{
+    margin-left: 310px;
+}
+.myform{
+    text-align: center;
+    padding:50px 10px 50px 10px;
+}
+.myinput, .myselect, .btn{
+    padding:10px 50px 10px 50px;
+}
